@@ -12,8 +12,8 @@ const {id, name, email} = this.props.monster;
         return (
 // this is where the div requirement goes for this card component
             <div
-                key={id}
-                class='card-container'>
+                key={`card-container-id-${id}`}
+                className='card-container'>
                     
                 <img
                     src={`https://robohash.org/${id}?set=set2&size=180x180`}
