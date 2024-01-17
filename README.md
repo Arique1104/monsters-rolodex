@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Monsters Rolodex
+
+This project shows a fully functional search bar which updates accurately the cards that are shown.
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
