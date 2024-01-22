@@ -37,8 +37,7 @@ const App = () => {
     <div className="App">
       <h1 className='app-title'>Monsters Rolodex</h1>
       <SearchBox className='monsters-search-box' onChangeHandler={onSearchChange} placeholder={"search monsters"} />
-      <SearchBox onChangeHandler={onStringChange} placeholder={"set string"} />
-       <CardList monsters={filteredMonsters} />
+      <CardList monsters={filteredMonsters} />
     </div>
   )
 }
